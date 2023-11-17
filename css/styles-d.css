@@ -416,7 +416,7 @@ blockquote p {
     
     .form input[type="submit"]{
         inline-size: 120px;
-        background: #000;
+        background: #5551FF;
         padding: 12px;
         color: #fff;
         position: absolute;
