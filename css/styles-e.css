@@ -33,7 +33,7 @@
 body{
     color: var(--white10);
     font-family: 'Nunito', sans-serif;
-    background: var(--white40);
+    background: #232946;
     margin:0;
     
 }
@@ -97,7 +97,6 @@ h3{
 }
 
 pre{
-    background: var(--white30);
     padding: 1rem;
     overflow: auto;
     border-radius: .5rem;
@@ -105,11 +104,11 @@ pre{
 
 }
 
-.hero{
+/* .hero{
     background: linear-gradient(96.07deg, #314755 30.63%, #26A0DA 102.18%);;
     block-size: 3.125rem;
 
-}
+} */
 .section-content{
     counter-reset: titleList;
 }
@@ -142,7 +141,7 @@ blockquote{
     margin: 0;
     padding: .5rem;
     border-radius: .5rem;
-    background: var(--white30);
+    background: #D4939D;
     font-size: 1rem;
 
 
@@ -210,7 +209,7 @@ blockquote p {
 .form input{
     inline-size: 100%;
     border: 1px solid var(--white10);
-    background: var(--white40);
+    background: #232946;
     border-radius: .5rem;
     box-sizing: border-box;
     padding-inline: 16px;
@@ -222,9 +221,10 @@ blockquote p {
 }
 
 .form input[type="submit"]{
-    background: #157EFB;
+    background: #EEBBC3;
     border: none;
     padding: 12px;
+    color: #000;
 }
 
 .form input::-webkit-input-placeholder{
@@ -242,7 +242,7 @@ blockquote p {
 
 .footer{
     block-size: 9rem;
-    background: var(--white10);
+    background: #EEBBC3;
     text-align: center;
     padding-block-start: 3rem;
     
@@ -274,9 +274,9 @@ blockquote p {
         inset-inline-start: -208px;
         inline-size: 188px;
     }
-    .hero{
+    /* .hero{
         block-size: 21.875rem;
-    }
+    } */
     h1{
         font-size: 3.75rem;
         margin-block-start: 4rem;
@@ -303,8 +303,6 @@ blockquote p {
         padding: 2.5rem;
         overflow: auto;
         border-radius: .5rem;
-        border: 10px solid #5551ff;
-        box-shadow: -10px 10px 0 0 #ABAAF6;
         margin-block-end: 2.5rem;
     
     }
