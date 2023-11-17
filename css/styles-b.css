@@ -85,14 +85,14 @@ h1{
 
 h2{
     font-size: 1.5rem;
-    font-weight: 400;
+    font-weight: 700;
     margin-block: 2.5rem;
 }
 
 h3{
 
     font-size: 1.25rem;
-    font-weight: 400;
+    font-weight: 600;
     margin-block: 1rem;
 }
 
@@ -181,6 +181,7 @@ blockquote p {
 
 .video {
     margin: 0;
+
     display: inline-block;
     inline-size: 100%;
     block-size: auto;
@@ -239,48 +240,6 @@ blockquote p {
     margin-block-end: 1rem;
 }
 
-.email{
-    color: #000;
-    line-height: 700;
-}
-
-.footer{
-    block-size: 9rem;
-    background: var(--white10);
-    text-align: center;
-    padding-block-start: 3rem;
-    
-}
-
-.footer p{
-    color: #251F24;
-    ;
-    font-size: 1.5rem;
-    font-family: 'Roboto';
-    margin-block-end: 1rem;
-}
-
-.variants ul{
-    padding-inline-start: 25px;
-}
-
-.variants li{
-    list-style: none;
-    padding: .5rem;
-}
-
-.variants li a{
-    cursor: pointer;
-}
-
-.variants li a:hover{
-    color: #fff;
-}
-
-.variants li:hover {
-
-    background: #000;
-}
 
 @media screen and (min-width: 1366px){
     .header{
